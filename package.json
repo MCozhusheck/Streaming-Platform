@@ -1,0 +1,26 @@
+{
+  "name": "streaming-platform",
+  "version": "0.0.1",
+  "description": "Implementation of streaming platform using Node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MCozhusheck/Streaming-Platform.git"
+  },
+  "keywords": [
+    "streaming"
+  ],
+  "author": "Maciej Kożuszek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MCozhusheck/Streaming-Platform/issues"
+  },
+  "homepage": "https://github.com/MCozhusheck/Streaming-Platform#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-media-server": "^2.1.4"
+  }
+}
