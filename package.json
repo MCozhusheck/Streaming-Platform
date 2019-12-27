@@ -4,7 +4,8 @@
   "description": "Implementation of streaming platform using Node.js",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "env-cmd -f ./.env nodemon ./app.js"
   },
   "repository": {
     "type": "git",
@@ -20,15 +21,24 @@
   },
   "homepage": "https://github.com/MCozhusheck/Streaming-Platform#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "bluebird": "^3.7.2",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "intel": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.15",
     "logrotate-stream": "^0.2.5",
-    "node-media-server": "^2.1.4",
     "md5": "^2.2.1",
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.3",
     "morgan": "^1.9.1",
-    "node-video-lib": "^2.2.0"
+    "node-media-server": "^2.1.4",
+    "node-video-lib": "^2.2.0",
+    "validator": "^12.1.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.0.1",
+    "nodemon": "^2.0.2"
   }
 }
