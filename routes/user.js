@@ -62,4 +62,8 @@ router.post("/users/me/logoutall", auth, async (req, res) => {
   }
 });
 
+router.post("/users/me/upload", auth, async (req, res) => {
+  console.log(req.files.foo);
+});
+
 module.exports = router;
