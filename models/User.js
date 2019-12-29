@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 const validator = require("validator");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
+const Video = require("./Video");
 
 const userSchema = mongoose.Schema({
   name: {
@@ -31,6 +32,13 @@ const userSchema = mongoose.Schema({
         type: String,
         required: true
       }
+    }
+  ],
+  videos: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Video",
+      require: false
     }
   ]
 });
