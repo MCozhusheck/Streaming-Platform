@@ -28,7 +28,7 @@
     "express-fileupload": "^1.1.6",
     "intel": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "logrotate-stream": "^0.2.5",
     "md5": "^2.2.1",
     "mongodb": "^3.4.1",
