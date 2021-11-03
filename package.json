@@ -36,7 +36,7 @@
     "morgan": "^1.9.1",
     "node-media-server": "^2.1.4",
     "node-video-lib": "^2.2.0",
-    "validator": "^12.1.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "env-cmd": "^10.0.1",
